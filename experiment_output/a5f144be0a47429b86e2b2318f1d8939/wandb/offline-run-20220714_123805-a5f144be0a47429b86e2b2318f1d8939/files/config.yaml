@@ -1,0 +1,157 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.20
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1657773485
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 55
+      3:
+      - 4
+      - 14
+      - 16
+      4: 3.8.13
+      5: 0.12.20
+      8:
+      - 3
+      - 8
+batch_size:
+  desc: null
+  value: 256
+click_model:
+  desc: null
+  value: informational
+device:
+  desc: null
+  value: cuda
+doc_feature_size:
+  desc: null
+  value: 46
+eval_n_trajs:
+  desc: null
+  value: 5
+eval_period:
+  desc: null
+  value: 10
+hostname:
+  desc: null
+  value: LAPTOP-N81LOE53
+logging.anonymous:
+  desc: null
+  value: null
+logging.experiment_id:
+  desc: null
+  value: null
+logging.notes:
+  desc: null
+  value: null
+logging.online:
+  desc: null
+  value: false
+logging.output_dir:
+  desc: null
+  value: ./experiment_output
+logging.prefix:
+  desc: null
+  value: SimpleSAC
+logging.project:
+  desc: null
+  value: sac
+logging.random_delay:
+  desc: null
+  value: 0.0
+max_traj_length:
+  desc: null
+  value: 10
+n_env_steps_per_epoch:
+  desc: null
+  value: 1000
+n_epochs:
+  desc: null
+  value: 2000
+n_train_step_per_epoch:
+  desc: null
+  value: 1000
+online_eta:
+  desc: null
+  value: 1
+online_lr:
+  desc: null
+  value: 0.001
+online_num_iteration:
+  desc: null
+  value: 10
+orthogonal_init:
+  desc: null
+  value: false
+policy_arch:
+  desc: null
+  value: 256-256
+policy_log_std_multiplier:
+  desc: null
+  value: 1.0
+policy_log_std_offset:
+  desc: null
+  value: -1.0
+qf_arch:
+  desc: null
+  value: 256-256
+replay_buffer_size:
+  desc: null
+  value: 1000000
+reward_method:
+  desc: null
+  value: both
+sac.alpha_multiplier:
+  desc: null
+  value: 1.0
+sac.backup_entropy:
+  desc: null
+  value: true
+sac.discount:
+  desc: null
+  value: 0.99
+sac.optimizer_type:
+  desc: null
+  value: adam
+sac.policy_lr:
+  desc: null
+  value: 0.0003
+sac.qf_lr:
+  desc: null
+  value: 0.0003
+sac.reward_scale:
+  desc: null
+  value: 1.0
+sac.soft_target_update_rate:
+  desc: null
+  value: 0.005
+sac.target_entropy:
+  desc: null
+  value: 0.0
+sac.target_update_period:
+  desc: null
+  value: 1
+sac.use_automatic_entropy_tuning:
+  desc: null
+  value: true
+save_model:
+  desc: null
+  value: true
+seed:
+  desc: null
+  value: 42

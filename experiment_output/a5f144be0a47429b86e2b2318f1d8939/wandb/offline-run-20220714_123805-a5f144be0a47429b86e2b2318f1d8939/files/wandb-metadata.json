@@ -1,0 +1,20 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-14T04:38:06.002550",
+    "startedAt": "2022-07-14T04:38:05.981606",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--logging.output_dir",
+        "./experiment_output"
+    ],
+    "state": "running",
+    "program": "-m SimpleSAC.offline_LTR",
+    "host": "LAPTOP-N81LOE53",
+    "username": "Lenovo",
+    "executable": "E:\\Anaconda\\envs\\SimpleSAC\\python.exe"
+}
